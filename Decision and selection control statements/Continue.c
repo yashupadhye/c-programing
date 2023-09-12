@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main()
+
 {
+    int i;
     for (int i = 0; i < 10; i++)
       
         if (i==5 || i==8)
@@ -8,5 +10,8 @@ int main()
             continue;  //this is use for to skip the value
         }
           printf("%d\n",i);
+          
+        
+         
     }
     
