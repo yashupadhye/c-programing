@@ -1,28 +1,40 @@
 #include <stdio.h>
 int main()
 {
+
     float a, b, c;
     char ch;
-    printf("Enter the frist number:-");
-    scanf("%f", &a);
-    printf("Enter the choice you want to prefrom:-");
-    scanf(" %c", &ch);
-    printf("Enter the second number:-");
-    scanf("%f", &b);
-    switch (ch)
+      while (1)
     {
-    case '+': c=a+b;
-        printf("output is:- %f", c);
-        break;
-    case '-': c=a-b;
-        printf("output is:- %f" ,c);
-        break;
-    case '*': c=a*b;
-        printf("output is:-%f",c);
-        break;
-        case '/': c=a/b;
-        printf("outout is:-%f",c);
-        break;
-   
+    printf("Enter the frist number= \n");
+    scanf("%f", &a);
+    printf("Enter the choice you want to preform= ");
+    scanf(" %c", &ch);
+    printf("Enter the second number= ");
+    scanf("%f", &b);
+  
+
+        switch (ch)
+        {
+        case '+':
+            c = a + b;
+            printf("output is:- %f\n", c);
+            break;
+        case '-':
+            c = a - b;
+            printf("output is:- %f\n", c);
+            break;
+        case '*':
+            c = a * b;
+            printf("output is:-%f\n", c);
+            break;
+        case '/':
+            c = a / b;
+            printf("outout is:-%f\n", c);
+            break;
+       
+        default:
+            printf("invaild input\n");
+        }
     }
 }
