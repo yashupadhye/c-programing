@@ -22,3 +22,13 @@ int main()
    printf("a=%d\n",b);
    printf("b=%d",a);
 }
+
+
+    int a = 10, b = 20;
+    printf("a=%d\n",a);
+    printf("b=%d\n", b);
+    int temp = a;
+    a = b;
+    b = temp;
+    printf("a=%d\n", a);
+    printf("b=%d\n", b);
