@@ -2,7 +2,7 @@
 void calculater(int n, int *sq, int *cb);
 int main()
 {
-    printf("enter the number");
+    printf("enter the number ");
     int n;
     scanf("%d", &n);
     int square;

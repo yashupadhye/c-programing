@@ -1,4 +1,7 @@
 #include <stdio.h>
+int num1=0;
+int num2=0;
+void calculater();
 int main()
 {
    int oldResult = 0;
@@ -16,10 +19,8 @@ int main()
          scanf("%d", &choice1);
          if (choice1 == 1)
          {
-            printf("Enter first number : ");
-            scanf("%d", &num1);
-            printf("Enter second number : ");
-            scanf("%d", &num2);
+
+            calculater();
 
             result = num1 + num2;
             oldResult = result;
@@ -41,10 +42,7 @@ int main()
          scanf("%d", &choice1);
          if (choice1 == 1)
          {
-            printf("Enter first number : ");
-            scanf("%d", &num1);
-            printf("Enter second number : ");
-            scanf("%d", &num2);
+            
 
             result = num1 - num2;
             oldResult = result;
@@ -66,11 +64,7 @@ int main()
          scanf("%d", &choice1);
          if (choice1 == 1)
          {
-            printf("Enter first number : ");
-            scanf("%d", &num1);
-            printf("Enter second number : ");
-            scanf("%d", &num2);
-
+            
             result = num1 * num2;
             oldResult = result;
             printf("%d * %d = %d\n", num1, num2, result);
@@ -91,10 +85,8 @@ int main()
          scanf("%d", &choice1);
          if (choice1 == 1)
          {
-            printf("Enter first number : ");
-            scanf("%d", &num1);
-            printf("Enter second number : ");
-            scanf("%d", &num2);
+
+            
 
             result = num1 / num2;
             oldResult = result;
@@ -120,4 +112,12 @@ int main()
    }
 
    return 0;
+}
+void calculater()
+{
+
+   printf("Enter first number : ");
+   scanf("%d", &num1);
+   printf("Enter second number : ");
+   scanf("%d", &num2);
 }
