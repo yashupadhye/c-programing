@@ -22,16 +22,16 @@ int main()
         printf("\n");
     }
 
-    // printf("%d\n",marks[0][0]);
-    // printf("%d\n",marks[0][1]);
-    // printf("%d\n",marks[0][2]);
-    // printf("%d\n",marks[0][3]);
-    // printf("%d\n",marks[0][4]);
-    // printf("%d\n",marks[1][0]);
-    // printf("%d\n",marks[1][1]);
-    // printf("%d\n",marks[1][2]);
-    // printf("%d\n",marks[1][3]);
-    // printf("%d\n",marks[1][4]);
+   // printf("%d\n",marks[0][0]);
+   // printf("%d\n",marks[0][1]);
+   // printf("%d\n",marks[0][2]);
+   // printf("%d\n",marks[0][3]);
+   // printf("%d\n",marks[0][4]);
+   // printf("%d\n",marks[1][0]);
+   // printf("%d\n",marks[1][1]);
+   // printf("%d\n",marks[1][2]);
+   // printf("%d\n",marks[1][3]);
+   // printf("%d\n",marks[1][4]);
 
     return 0;
 }
