@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main()
 {
- int *ptr;
+ int *ptr; 
  int num;
 
  printf("enter total  number element count:- ");
